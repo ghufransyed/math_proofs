@@ -6,7 +6,6 @@
 \use_default_options true
 \begin_modules
 theorems-ams
-theorems-ams-extended
 \end_modules
 \maintain_unincluded_children false
 \language english
@@ -64,7 +63,218 @@ theorems-ams-extended
 
 \begin_body
 
-\begin_layout Enumerate
+\begin_layout Exercise*
+1.1 Which of the following are sets?
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $(d)\left\{ 1,\left\{ 2\right\} ,3\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+(e) 
+\begin_inset Formula $\left\{ 1,2,a,b\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise*
+1.3 Determine the cardinality of each of the following sets:
+\end_layout
+
+\begin_layout Description
+(a) A=
+\begin_inset Formula $\left\{ 1,2,3,4,5\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\vert A\vert=5$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+(b) B=
+\begin_inset Formula $\left\{ 0,2,4,...,20\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\vert B\vert$
+\end_inset
+
+ = 11
+\end_layout
+
+\begin_layout Description
+(c) C = 
+\begin_inset Formula $\left\{ 25,26,27...,75\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\vert C\vert$
+\end_inset
+
+= 51
+\end_layout
+
+\begin_layout Description
+(d) D = 
+\begin_inset Formula $\left\{ \left\{ 1,2\right\} ,\left\{ 1,2,3,4\right\} \right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\vert D\vert$
+\end_inset
+
+= 2
+\end_layout
+
+\begin_layout Description
+(e) E = 
+\begin_inset Formula $\left\{ \emptyset\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\vert E\vert=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+(f) 
+\begin_inset Formula $F=\left\{ 2,\left\{ 2,3,4\right\} \right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\vert F\vert=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise*
+1.5
+\end_layout
+
+\begin_layout Description
+(a) A=
+\begin_inset Formula $\left\{ -1,-2,-3,\ldots\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A=\left\{ x=-y,y\in\mathbb{N}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+(b) B=
+\begin_inset Formula $\left\{ -3,-2,\ldots,3\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $B=\left\{ x\in\mathbb{Z}:-3\leq x\leq3\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+(c) 
+\begin_inset Formula $C=\left\{ -2,-1,1,2\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $C=\left\{ x\in Z:-2\leq x\leq2,x\neq0\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise*
+1.7
+\end_layout
+
+\begin_layout Description
+(a) 
+\begin_inset Formula $A=\left\{ \ldots,-4,-1,2,5,8,\ldots\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A=\left\{ 3x-1:x\in\mathbb{Z}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+(b) 
+\begin_inset Formula $B=\left\{ \ldots,-10,-5,0,5,10,\ldots\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $B=\left\{ 5x:x\in\mathbb{Z}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+(c) 
+\begin_inset Formula $C=\left\{ 1,8,27,64,125,\ldots\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $C=\left\{ x^{3}:x\in\mathbb{N}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
 
 \end_layout
 
