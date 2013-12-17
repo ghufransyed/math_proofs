@@ -834,5 +834,393 @@ Therefore
 , sum of elements 6
 \end_layout
 
+\begin_layout Exercise*
+1.23
+\end_layout
+
+\begin_layout Description
+Give examples of two sets A and B such that 
+\begin_inset Formula $\vert A-B\vert=\vert A\cap B\vert=\vert B-A\vert=3$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A=\left\{ 1,2,3,4,5,6\right\} ,B=\left\{ 4,5,6,7,8,9\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A-B=\left\{ 1,2,3\right\} ,A\cap B=\left\{ 4,5,6\right\} ,B-A=\left\{ 7,8,9\right\} $
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Exercise*
+1.24
+\end_layout
+
+\begin_layout Description
+Give examples of three sets A,B and C such that 
+\begin_inset Formula $B\neq C$
+\end_inset
+
+ but 
+\begin_inset Formula $B-A=C-A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $B=\left\{ 1,2,3\right\} ,C=\left\{ 1,2,4\right\} ,A=\left\{ 3,4\right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Exercise*
+1.25
+\end_layout
+
+\begin_layout Description
+Give examples of three sets A, B and C such that
+\end_layout
+
+\begin_layout Description
+(a) 
+\begin_inset Formula $A\in B,A\subseteq C\, and\, B\nsubseteq C$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A=\left\{ 1\right\} ,B=\left\{ \left\{ 1\right\} \right\} ,C=\left\{ 1\right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+(b) 
+\begin_inset Formula $B\in A,B\subset C\, and\, A\cap C\neq\emptyset$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A=\left\{ \left\{ 1\right\} \right\} ,B=\left\{ 1\right\} ,C=\left\{ 1,\left\{ 1\right\} \right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+(c) 
+\begin_inset Formula $A\in B,B\subseteq C\, and\, A\nsubseteq C$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A=\left\{ 1\right\} ,B=\left\{ \left\{ 1\right\} \right\} ,C=\left\{ \left\{ 1\right\} \right\} $
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+ (I think...
+ I got different answers, probably because I didn't apply any condition
+ that 
+\begin_inset Formula $A\neq B\neq C$
+\end_inset
+
+ , the question does not specify such a condition)]
+\end_layout
+
+\begin_layout Exercise*
+1.27
+\end_layout
+
+\begin_layout Description
+Give an example of a universal set U, two sets A and B and accompanying
+ Venn diagram such that 
+\begin_inset Formula $\mbox{\vert A\cap B\vert=\vert A-B\vert=\vert B-A\vert=\vert\overline{A\cup B}\vert=2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $U=\left\{ 1,2,3,4,5,6,7,8\right\} ,A=\left\{ 1,2,3,4\right\} ,B=\left\{ 3,4,5,6\right\} $
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Exercise*
+1.29
+\end_layout
+
+\begin_layout Description
+Let 
+\begin_inset Formula $A=\left\{ \emptyset,\left\{ \emptyset\right\} ,\left\{ \left\{ \emptyset\right\} \right\} \right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+(a) Determine which of the following are elements of A: 
+\begin_inset Formula $\emptyset,\left\{ \emptyset\right\} $
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Description
+(b) Determine 
+\begin_inset Formula $\vert A\vert$
+\end_inset
+
+ .
+ 
+\begin_inset Formula $\vert A\vert=3$
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Description
+(c) Determine which of the following are subsets of A: 
+\begin_inset Formula $\emph{\left\{ \emptyset\right\} ,\left\{ \emptyset,\left\{ \emptyset\right\} \right\}  }$
+\end_inset
+
+ [
+\begin_inset Quotes eld
+\end_inset
+
+all of 
+\begin_inset Formula $\emptyset,\left\{ \emptyset\right\} ,\left\{ \emptyset,\left\{ \emptyset\right\} \right\} $
+\end_inset
+
+are subsets of A
+\begin_inset Quotes erd
+\end_inset
+
+
+\backslash
+
+\end_layout
+
+\begin_layout Description
+(d) 
+\begin_inset Formula $\emptyset\cap A=\emptyset$
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Description
+(e) 
+\begin_inset Formula $\left\{ \emptyset\right\} \cap A=\emptyset$
+\end_inset
+
+ [
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $\left\{ \emptyset\right\} $
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Description
+(f) 
+\begin_inset Formula $\left\{ \emptyset,\left\{ \emptyset\right\} \right\} \cap A=\left\{ \emptyset,\left\{ \emptyset\right\} \right\} $
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Description
+(g) 
+\begin_inset Formula $\emptyset\cup A=A$
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Description
+(h) 
+\begin_inset Formula $\left\{ \emptyset\right\} \cup A=A$
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Description
+(i) 
+\begin_inset Formula $\left\{ \emptyset,\left\{ \emptyset\right\} \right\} \cup A=A$
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Exercise*
+1.31
+\end_layout
+
+\begin_layout Description
+Give an example of four different sets A, B, C and D such that 
+\end_layout
+
+\begin_layout Description
+(1) 
+\begin_inset Formula $A\cup B=\left\{ 1,2\right\} $
+\end_inset
+
+ and 
+\begin_inset Formula $C\cap D=\left\{ 2,3\right\} $
+\end_inset
+
+ and 
+\end_layout
+
+\begin_layout Description
+(2) if B and C are interchanged, and 
+\begin_inset Formula $\cup$
+\end_inset
+
+ and 
+\begin_inset Formula $\cap$
+\end_inset
+
+ are interchanged, then we get the same result
+\end_layout
+
+\begin_layout Description
+in other words, 
+\begin_inset Formula $A\cap C=\left\{ 1,2\right\} \, and\, B\cup D=\left\{ 2,3\right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A=\left\{ 1,2\right\} ,B=\left\{ \right\} ,C=\left\{ 1,2,3\right\} ,D=\left\{ 2,3\right\} $
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+ although their answer has 
+\begin_inset Formula $B=\left\{ 2\right\} ]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise*
+1.33
+\end_layout
+
+\begin_layout Description
+Give an example of two nonempty sets A and B such that 
+\begin_inset Formula $\left\{ A\cup B,A\cap B,A-B,B-A\right\} $
+\end_inset
+
+ is the power set of some set
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A=\left\{ 1\right\} ,B=\left\{ 2\right\} $
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Exercise*
+1.35
+\end_layout
+
+\begin_layout Description
+Give examples of a universal set U and sets A, B and C such that each of
+ the following sets contains exactly one element:
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A\cap B\cap C,\left(A\cap B\right)-C,\left(A\cap C\right)-B,\left(B\cap C\right)-A,A-\left(B\cup C\right),B-\left(A\cup C\right),C-\left(A\cup B\right),\overline{A\cup B\cup C}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A=\left\{ 1,2,3,5\right\} ,B=\left\{ 1,2,4,6\right\} ,C=\left\{ 1,3,4,7\right\} ,U=\left\{ 1,2,3,4,5,6,7,8\right\} $
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
+\end_layout
+
 \end_body
 \end_document
