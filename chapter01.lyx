@@ -63,6 +63,10 @@ theorems-ams
 
 \begin_body
 
+\begin_layout Subsection*
+1.1 Describing a set
+\end_layout
+
 \begin_layout Exercise*
 1.1 Which of the following are sets?
 \end_layout
@@ -381,6 +385,10 @@ For
 \end_inset
 
 )
+\end_layout
+
+\begin_layout Subsection*
+1.2 Subsets
 \end_layout
 
 \begin_layout Exercise*
@@ -834,6 +842,10 @@ Therefore
 , sum of elements 6
 \end_layout
 
+\begin_layout Subsection*
+1.3 Set Operations
+\end_layout
+
 \begin_layout Exercise*
 1.23
 \end_layout
@@ -1213,6 +1225,251 @@ Give examples of a universal set U and sets A, B and C such that each of
 
 \begin_layout Description
 \begin_inset Formula $A=\left\{ 1,2,3,5\right\} ,B=\left\{ 1,2,4,6\right\} ,C=\left\{ 1,3,4,7\right\} ,U=\left\{ 1,2,3,4,5,6,7,8\right\} $
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Subsection*
+1.4 Indexed Collections of Sets
+\end_layout
+
+\begin_layout Exercise*
+1.37
+\end_layout
+
+\begin_layout Description
+Let 
+\begin_inset Formula $A=\left\{ 1,2,5\right\} ,B=\left\{ 0,2,4\right\} ,C=\left\{ 2,3,4\right\} \, and\, S=\left\{ A,B,C\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Determine 
+\begin_inset Formula $\bigcup_{x\in S}X$
+\end_inset
+
+ and 
+\begin_inset Formula $\bigcup_{x\in S}X$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\bigcup_{x\in S}X=\left\{ 0,1,2,3,4,5\right\} ,\bigcap_{x\in S}X=\left\{ 2\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise*
+1.39
+\end_layout
+
+\begin_layout Description
+Let 
+\begin_inset Formula $A=\left\{ a,b,\dots,z\right\} $
+\end_inset
+
+ be the set consisting of the letters of the alphabet.
+ For 
+\begin_inset Formula $\alpha\in A$
+\end_inset
+
+, let 
+\begin_inset Formula $A_{\alpha}$
+\end_inset
+
+ consist of 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ and the two letters that follow it, where 
+\begin_inset Formula $A_{y}=\left\{ y,z,a\right\} \, and\, A_{z}=\left\{ z,a,b\right\} $
+\end_inset
+
+.
+ Find a set 
+\begin_inset Formula $S\subseteq A$
+\end_inset
+
+ of smallest cardinality such that 
+\begin_inset Formula $\bigcup_{\alpha\in S}A_{\alpha}=A$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $S=\left\{ a,d,g,j,m,p,s,v,y\right\} $
+\end_inset
+
+ 
+\begin_inset Formula $\vert S\vert=9$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Explain why your set S has the required properties
+\end_layout
+
+\begin_layout Description
+There are 26 letters in the alphabet, each index value e.g.
+ a,d,g corresponds to a collection of three successive letters, therefore
+ if each index letter is chosen to every 3rd letter, then 8 index letters
+ will correspond to 
+\begin_inset Formula $\vert\bigcup_{\alpha\in S}A_{\alpha}\vert=24$
+\end_inset
+
+ , and 9 index letters will be needed so that all 26 letters of the english
+ alphabet (all 26 members of the set A) are contained in 
+\begin_inset Formula $\bigcup_{\alpha\in S}A_{\alpha}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Exercise*
+1.41
+\end_layout
+
+\begin_layout Description
+For each of the following, find an indexed collection 
+\begin_inset Formula $\left\{ A_{n}\right\} _{n\in\mathbb{N}}$
+\end_inset
+
+ of distinct sets (that is, no two sets are equal) satisfying the given
+ conditions.
+\end_layout
+
+\begin_layout Description
+(a) 
+\begin_inset Formula $\bigcap_{n=1}^{\infty}A_{n}=\left\{ 0\right\} \, and\,\bigcup_{n=1}^{\infty}A_{n}=\left[0,1\right]$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A_{n}=\left\{ \frac{0}{n},\frac{1}{n},\dots,\frac{n}{n}\right\} $
+\end_inset
+
+ [INCORRECT]
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\left\{ A_{n}\right\} _{n\in\mathbb{N}},$
+\end_inset
+
+where 
+\begin_inset Formula $A_{n}=\left\{ x\in\mathbb{R}:0\leq x\leq\frac{1}{n}\right\} =\left[0,\frac{1}{n}\right]$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+[my answer did not include the irrational numbers.
+ I was trying to use the natural numbers for both the boundaries and for
+ each value (therefore leaving out the irrational numbers), the given solution
+ uses the Real numbers as the 'source' of the contents of A, using the Natural
+ numbers only as the boundaries]
+\end_layout
+
+\begin_layout Description
+(b) 
+\begin_inset Formula $\bigcap_{n=1}^{\infty}A_{n}=\left\{ -1,0,1\right\} \, and\,\bigcup_{n=1}^{\infty}A_{n}=\mathbb{Z}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\left\{ A_{n}\right\} _{n\in\mathbb{N}}\, where\, A=\left\{ a\in\mathbb{Z}:\vert a\vert\leq n\right\} =\left\{ -n,-\left(n-1\right),\dots,0,\dots,\left(n-1\right),n\right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+[correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Exercise*
+1.43
+\end_layout
+
+\begin_layout Description
+For 
+\begin_inset Formula $r\in\mathbb{R}^{+}$
+\end_inset
+
+, let 
+\begin_inset Formula $A_{r}=\left\{ x\in\mathbb{R}:\vert x\vert<r\right\} $
+\end_inset
+
+ .
+ Determine 
+\begin_inset Formula $\bigcup_{r\in\mathbb{R}^{+}}A_{r}$
+\end_inset
+
+ and 
+\begin_inset Formula $\bigcap_{r\in\mathbb{R}^{+}}A_{r}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\bigcup_{r\in\mathbb{R}^{+}}A_{r}=\mathbb{R}$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+[correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\bigcap_{r\in\mathbb{R}^{+}}A_{r}=\left\{ 0\right\} $
 \end_inset
 
  [correct 
