@@ -1561,7 +1561,11 @@ Which of the following are partitions of
 \begin_inset Formula $S_{2}=\left\{ \left\{ 1,2\right\} ,\left\{ 3,4,5\right\} \right\} $
 \end_inset
 
- 
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Exercise*
@@ -1600,7 +1604,11 @@ Give an example of a set A with
 \begin_inset Formula $S_{2}=\left\{ \left\{ 1,2\right\} ,\left\{ 3\right\} ,\left\{ 4\right\} \right\} $
 \end_inset
 
- 
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Exercise*
@@ -1619,7 +1627,11 @@ Give an example of a partition of
 \begin_inset Formula $\left\{ \left\{ x\in\mathbb{Q}:x<0\right\} ,\left\{ 0\right\} ,\left\{ x\in\mathbb{Q}:x>0\right\} \right\} $
 \end_inset
 
- 
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Exercise*
@@ -1638,7 +1650,11 @@ Give an example of a partition of
 \begin_inset Formula $\left\{ \left\{ 4x:x\in\mathbb{Z}\right\} ,\left\{ 4x+1:x\in\mathbb{Z}\right\} ,\left\{ 4x+2:x\in\mathbb{Z}\right\} ,\left\{ 4x+3:x\in\mathbb{Z}\right\} \right\} $
 \end_inset
 
- 
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+] (but their answer is different)
 \end_layout
 
 \begin_layout Exercise*
@@ -1659,19 +1675,183 @@ A set S is partitioned into two subsets S1 and S2.
 \end_layout
 
 \begin_layout Description
-21
+21 [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Subsection*
 1.6 Cartesian Products of Sets
 \end_layout
 
-\begin_layout Standard
+\begin_layout Exercise*
+1.57
+\end_layout
 
+\begin_layout Description
+Let 
+\begin_inset Formula $A=\left\{ x,y,z\right\} $
+\end_inset
+
+and 
+\begin_inset Formula $B=\left\{ x,y\right\} $
+\end_inset
+
+ .
+ Determine 
+\begin_inset Formula $A\times B$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A\times B=\left\{ \left\{ x,x\right\} ,\left\{ x,y\right\} ,\left\{ y,x\right\} \left\{ y,y\right\} ,\left\{ z,x\right\} ,\left\{ z,y\right\} \right\} $
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Exercise*
-1.57
+1.59
+\end_layout
+
+\begin_layout Description
+For 
+\begin_inset Formula $A=\left\{ a,b\right\} $
+\end_inset
+
+, determine 
+\begin_inset Formula $A\times\mathcal{P}\left(A\right)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\mathcal{P}\mbox{(A)=\left\{ \emptyset,a,b,\left\{ a,b\right\} \right\}  }$
+\end_inset
+
+ [incorrect: should be 
+\begin_inset Formula $\mathcal{P}\mbox{(A)=\ensuremath{\left\{ \emptyset,\left\{ a\right\} ,\left\{ b\right\} ,\left\{ a,b\right\} \right\} }}$
+\end_inset
+
+ , as each element is a SUBSET of A]
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A\times\mathcal{P}\left(A\right)=\left\{ \left\{ a,\emptyset\right\} ,\left\{ a,\left\{ a\right\} \right\} ,\left\{ a,\left\{ b\right\} \right\} ,\left\{ a,\left\{ a,b\right\} \right\} ,\left\{ b,\emptyset\right\} ,\left\{ b,\left\{ a\right\} \right\} ,\left\{ b,\left\{ b\right\} \right\} ,\left\{ b,\left\{ a,b\right\} \right\} \right\} $
+\end_inset
+
+ [correct 
+\begin_inset Formula $\checkmark$
+\end_inset
+
+] - corrected after feedback from first section
+\end_layout
+
+\begin_layout Exercise*
+1.61
+\end_layout
+
+\begin_layout Description
+For 
+\begin_inset Formula $A=\left\{ 1,2\right\} $
+\end_inset
+
+ and 
+\begin_inset Formula $B=\left\{ \emptyset\right\} $
+\end_inset
+
+, determine 
+\begin_inset Formula $A\times B$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathcal{P}\left(A\right)\times\mathcal{P}\left(B\right)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A\times B=\left\{ \left\{ 1,\emptyset\right\} ,\left\{ 2,\emptyset\right\} \right\} $
+\end_inset
+
+ 
+\begin_inset Formula $\mathcal{P}\left(A\right)=\left\{ \emptyset,\left\{ 1\right\} ,\left\{ 2\right\} ,\left\{ 1,2\right\} \right\} $
+\end_inset
+
+ 
+\begin_inset Formula $\mathcal{P}\left(B\right)=\left\{ \emptyset,\left\{ \emptyset\right\} \right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\mathcal{P}\left(A\right)\times\mathcal{P}\left(B\right)=\left\{ \left\{ \emptyset,\emptyset\right\} ,\left\{ \emptyset,\left\{ \emptyset\right\} \right\} ,\left\{ 1,\emptyset\right\} ,\left\{ 1,\left\{ \emptyset\right\} \right\} ,\left\{ 2,\emptyset\right\} ,\left\{ 2,\left\{ \emptyset\right\} \right\} ,\left\{ \left\{ 1,2\right\} ,\emptyset\right\} ,\left\{ \left\{ 1,2\right\} ,\left\{ \emptyset\right\} \right\} \right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Exercise*
+1.63
+\end_layout
+
+\begin_layout Description
+List the elements of the set 
+\begin_inset Formula $S=\left\{ \left(x,y\right)\in\mathbb{Z}\times\mathbb{Z}:\vert x\vert+\vert y\vert=3\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $S=\left\{ \left\{ \pm3,0\right\} ,\left\{ \pm2,\pm1\right\} ,\left\{ \pm1,\pm2\right\} ,\left\{ 0,\pm3\right\} \right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Exercise*
+1.65
+\end_layout
+
+\begin_layout Description
+For 
+\begin_inset Formula $A=\left\{ x\in\mathbb{R}:\vert x-1\vert\leq2\right\} $
+\end_inset
+
+ and 
+\begin_inset Formula $B=\left\{ y\in\mathbb{R}:\vert y-4\vert\leq2\right\} $
+\end_inset
+
+, give a geometric description of the points in the xy-plane belonging to
+ 
+\begin_inset Formula $A\times B$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+The points belonging to 
+\begin_inset Formula $A\times B$
+\end_inset
+
+ correspond to a square, with vertices at 
+\begin_inset Formula $\left(-1,2\right),\left(-1,6\right),\left(3,2\right)\left(3,6\right)$
+\end_inset
+
+ .
 \end_layout
 
 \end_body
