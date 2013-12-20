@@ -1544,8 +1544,134 @@ For
 1.5 Partitions of Sets
 \end_layout
 
+\begin_layout Exercise*
+1.47
+\end_layout
+
+\begin_layout Description
+Which of the following are partitions of 
+\begin_inset Formula $A=\left\{ 1,2,3,4,5\right\} ?$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+(b) 
+\begin_inset Formula $S_{2}=\left\{ \left\{ 1,2\right\} ,\left\{ 3,4,5\right\} \right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Exercise*
+1.49
+\end_layout
+
+\begin_layout Description
+Give an example of a set A with 
+\begin_inset Formula $\vert A\vert=4$
+\end_inset
+
+ and two disjoint partitions 
+\begin_inset Formula $S_{1}$
+\end_inset
+
+ and S
+\begin_inset Formula $_{2}$
+\end_inset
+
+ of A with 
+\begin_inset Formula $\vert S_{1}\vert=\vert S_{2}\vert=3$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $A=\left\{ 1,2,3,4\right\} $
+\end_inset
+
+ 
+\begin_inset Formula $S_{1}=\left\{ \left\{ 1\right\} ,\left\{ 2\right\} ,\left\{ 3,4\right\} \right\} $
+\end_inset
+
+ 
+\begin_inset Formula $S_{2}=\left\{ \left\{ 1,2\right\} ,\left\{ 3\right\} ,\left\{ 4\right\} \right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Exercise*
+1.51
+\end_layout
+
+\begin_layout Description
+Give an example of a partition of 
+\begin_inset Formula $\mathbb{Q}$
+\end_inset
+
+ into three subsets.
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\left\{ \left\{ x\in\mathbb{Q}:x<0\right\} ,\left\{ 0\right\} ,\left\{ x\in\mathbb{Q}:x>0\right\} \right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Exercise*
+1.53
+\end_layout
+
+\begin_layout Description
+Give an example of a partition of 
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+ into four subsets.
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $\left\{ \left\{ 4x:x\in\mathbb{Z}\right\} ,\left\{ 4x+1:x\in\mathbb{Z}\right\} ,\left\{ 4x+2:x\in\mathbb{Z}\right\} ,\left\{ 4x+3:x\in\mathbb{Z}\right\} \right\} $
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Exercise*
+1.55
+\end_layout
+
+\begin_layout Description
+A set S is partitioned into two subsets S1 and S2.
+ This produces a partition P1 of S where P1 = {S1, S2} and so |P1| = 2.
+ One of the sets in P1 is then partitioned into two subsets, producing a
+ partition P2 of S with |P2| = 3.
+ A total of |P1| sets in P2 are partitioned into two subsets each, producing
+ a partition P3 of S.
+ Next, a total of |P2| sets in P3 are partitioned into two subsets each,
+ producing a partition P4 of S.
+ This is continued until a partition P6 of S is produced.
+ What is |P6|?
+\end_layout
+
+\begin_layout Description
+21
+\end_layout
+
+\begin_layout Subsection*
+1.6 Cartesian Products of Sets
+\end_layout
+
 \begin_layout Standard
 
+\end_layout
+
+\begin_layout Exercise*
+1.57
 \end_layout
 
 \end_body
